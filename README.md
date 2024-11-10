@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task Manager
 
-## Getting Started
+A simple task manager application built using **Next.js**, **TailwindCSS**, and **Shadcn**. The app provides basic CRUD (Create, Read, Update, Delete) functionality for managing tasks.
 
-First, run the development server:
+## Features
+
+- **Create**: Add new tasks with a title, description.
+- **Read**: View all tasks in a list format.
+- **Update**: Edit task details (title, description).
+- **Delete**: Remove tasks from the list.
+
+## Tools and Technologies
+
+- **Next.js**: A React-based framework for building server-side rendered and statically generated web applications. Used for managing routes and rendering views.
+- **TailwindCSS**: A utility-first CSS framework for quickly building custom designs. It provides a default, responsive design that helps speed up development.
+- **Shadcn**: A library for UI components in React, providing reusable and customizable components that follow design system guidelines.
+
+### Design Decisions
+
+- **TailwindCSS**: I decided to use TailwindCSS to streamline the styling process. As I’m not very comfortable with custom design work, I chose to stick with the default design and utility classes that TailwindCSS offers. This ensures a clean, responsive layout with minimal effort.
+- **Shadcn**: For UI components, I opted for Shadcn since it provides a good set of pre-designed components that align with the overall clean and simple aesthetic I aimed for.
+- **Minimalist UI**: I kept the user interface minimal and intuitive, focusing more on functionality than intricate design.
+
+## Installation
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/yourusername/task-manager.git
+   cd task-manager
+
+```
+2. Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   npm install
 ```
+3. Run the development server:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+   npm run dev
+```
+4. Open your browser and visit http://localhost:3000.
